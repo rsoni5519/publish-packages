@@ -1,0 +1,50 @@
+{
+  "extends": "./tsconfig.build.json",
+  "compilerOptions": {
+    "allowJs": true,
+    "moduleResolution": "node",
+    "target": "es5",
+    "module": "es2015",
+    "lib": [
+      "ES2015",
+      "es2015",
+      "es2016",
+      "es2017",
+      "es5",
+      "es6",
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "jsx": "react",
+    "strict": true,
+    "sourceMap": true,
+    "declaration": true,
+    "allowSyntheticDefaultImports": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "noImplicitAny": false,
+    "baseUrl": ".",
+    "paths": {
+      "@lerna-react-native/*": [
+        "packages/*/src",
+        "packages/*",
+        "examples/*",
+        "examples/*/src"
+      ]
+    },
+    "skipLibCheck": true,
+    "types": [
+      "node"
+    ],
+    "typeRoots": [
+      "node_modules/@types"
+    ]
+  },
+  "exclude": [
+    "node_modules",
+    "dist",
+    "node_modules/**",
+    "packages/*/node_modules/**"
+  ]
+}
