@@ -6,6 +6,9 @@
     "url": "ssh://git@github.com/rsoni5519/publish-packages.git",
     "directory": "packages/react-native"
   },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "private": true,
   "description": "lerna react-native module",
   "main": "dist/index",
