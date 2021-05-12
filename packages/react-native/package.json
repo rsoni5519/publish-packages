@@ -1,6 +1,6 @@
 {
   "name": "packages-react-native",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "repository": {
     "type": "git",
     "url": "ssh://git@github.com/rsoni5519/publish-packages.git",
