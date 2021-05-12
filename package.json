@@ -1,5 +1,6 @@
 {
   "name": "lerna-react-native",
+  "version": "0.0.1",
   "description": "Template for setting up a TypeScript monorepo",
   "repository": "git@github.com:rsoni5519/publish-packages.git",
   "private": true,
