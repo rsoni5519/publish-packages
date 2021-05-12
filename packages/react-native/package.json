@@ -1,7 +1,11 @@
 {
-  "name": "@lerna-react-native/react-native",
+  "name": "packages-react-native",
   "version": "0.0.1",
-  "repository": "git@github.com:rsoni5519/publish-packages/packages/react-native.git",
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@github.com/rsoni5519/publish-packages.git",
+    "directory": "packages/react-native"
+  },
   "private": true,
   "description": "lerna react-native module",
   "main": "dist/index",
