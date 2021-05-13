@@ -1,6 +1,6 @@
 {
   "name": "packages-react-native",
-  "version": "0.4.1",
+  "version": "0.4.2",
   "repository": {
     "type": "git",
     "url": "https://github.com/rsoni5519/publish-packages.git",
@@ -37,5 +37,6 @@
     "rimraf": "^3.0.2",
     "ts-jest": "^24.0.2",
     "typescript": "^4.2.0"
-  }
+  },
+  "gitHead": "d5af38ba93ff6f0ca6f3d39d7630fb25a56f97ef"
 }
