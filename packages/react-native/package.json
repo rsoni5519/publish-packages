@@ -3,11 +3,11 @@
   "version": "0.3.0",
   "repository": {
     "type": "git",
-    "url": "ssh://git@github.com/rsoni5519/publish-packages.git",
+    "url": "https://github.com/rsoni5519/publish-packages.git",
     "directory": "packages/react-native"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
+    "registry": "https://npm.pkg.github.com/@rsoni5519"
   },
   "private": true,
   "description": "lerna react-native module",
