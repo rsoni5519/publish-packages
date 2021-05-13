@@ -7,7 +7,7 @@
     "directory": "packages/react-native"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/@rsoni5519"
+    "registry": "https://npm.pkg.github.com"
   },
   "private": false,
   "description": "lerna react-native module",
