@@ -1,15 +1,14 @@
 {
   "name": "packages-react-native",
-  "version": "0.4.2",
+  "version": "0.4.3",
   "repository": {
     "type": "git",
     "url": "https://github.com/rsoni5519/publish-packages.git",
     "directory": "packages/react-native"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
+    "access": "public"
   },
-  "private": false,
   "description": "lerna react-native module",
   "main": "dist/index",
   "types": "dist/index",
