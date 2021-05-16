@@ -9,11 +9,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/vishalkhoje/monorepo-publish-lerna.git"
+    "url": "https://github.com/rsoni5519/publish-packages.git"
   },
-  "author": "Vishal Khoje",
+  "author": "rsoni5519",
   "license": "MIT",
-  "homepage": "https://github.com/vishalkhoje/monorepo-publish-lerna/tree/main/packages/foo",
+  "homepage": "https://github.com/rsoni5519/publish-packages/tree/master/packages/foo",
   "files": [
     "dist"
   ],
