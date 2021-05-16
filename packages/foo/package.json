@@ -1,8 +1,8 @@
 {
   "name": "@rsoni5519/foo",
   "version": "1.0.1",
-  "main": "src/index",
-  "types": "src/index",
+  "main": "dist/index",
+  "types": "dist/index",
   "description": "Shared bar package",
   "publishConfig": {
     "access": "public"
