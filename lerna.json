@@ -3,13 +3,7 @@
     "packages/*",
     "examples/*"
   ],
-  "version": "0.4.1",
+  "version": "independent",
   "useWorkspaces": true,
-  "npmClient": "yarn",
-  "command": {
-    "publish": {
-      "conventionalCommits": true,
-      "yes": true
-    }
-  }
+  "npmClient": "yarn"
 }

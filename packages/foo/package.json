@@ -1,0 +1,31 @@
+{
+  "name": "@rsoni5519/foo",
+  "version": "1.0.1",
+  "main": "src/index",
+  "types": "src/index",
+  "description": "Shared bar package",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vishalkhoje/monorepo-publish-lerna.git"
+  },
+  "author": "Vishal Khoje",
+  "license": "MIT",
+  "homepage": "https://github.com/vishalkhoje/monorepo-publish-lerna/tree/main/packages/foo",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "yarn run clean && yarn run compile",
+    "clean": "rimraf -rf ./dist",
+    "compile": "tsc -p tsconfig.build.json",
+    "prepublishOnly": "yarn run build",
+    "test": "yarn run build"
+  },
+  "devDependencies": {
+    "rimraf": "~3.0.2",
+    "typescript": "~4.2.0"
+  }
+}

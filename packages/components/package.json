@@ -1,0 +1,37 @@
+{
+  "name": "@vishalkhojemonorepo/components",
+  "version": "1.0.0",
+  "main": "dist/index",
+  "types": "dist/index",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vishalkhoje/monorepo-publish-lerna.git"
+  },
+  "author": "Vishal Khoje",
+  "license": "MIT",
+  "homepage": "https://github.com/vishalkhoje/monorepo-publish-lerna/tree/main/packages/components",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "yarn run clean && yarn run compile",
+    "clean": "rimraf -rf ./dist",
+    "compile": "tsc -p tsconfig.build.json",
+    "prepublishOnly": "yarn run build",
+    "test": "yarn run build"
+  },
+  "peerDependencies": {
+    "react": "~17.0.0"
+  },
+  "dependencies": {
+    "@vishalkhojemonorepo/foo": "*"
+  },
+  "devDependencies": {
+    "@types/react": "~17.0.0",
+    "react": "~17.0.0",
+    "react-dom": "~17.0.0"
+  }
+}
